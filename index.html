@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Seznamy a tabulky</title>
     <h1>Seznamy a tabulky</h1>
     <h2>Tvorba seznamů</h2>
@@ -79,19 +80,27 @@
             medií pro MIME a další náležitosti internetových protokolů.</dd>
     </dl>
     <h2>Tvorba tabulek</h2>
-    Komplexní tabulka v HTML může být tvořena záhlavím, tělem a zápatím. Pomocí atributů <b>colspan</b> a <b>rowspan</b> můžeme
+    Komplexní tabulka v HTML může být tvořena záhlavím, tělem a zápatím. Pomocí atributů <b>colspan</b> a <b>rowspan</b>
+    můžeme
     vytvořit sloučené buňky, které přesahují přes více sloupců i řádků.
     </ul>
     <table border="1">
         <caption>Studijní obory na SŠPU Opava - školní rok 2016/17</caption>
         <tbody>
             <thead>
-                <td rowspan="2">Název Oboru</td>
-                <td rowspan="2">Kód oboru</td>
-                <td rowspan="2">Počet tříd</td>
-                <td colspan="3">Počty žáků</td>
+                <tr>
+                    <th rowspan="2">Název Oboru</th>
+                    <th rowspan="2">Kód oboru</th>
+                    <th rowspan="2">Počet tříd</th>
+                    <th colspan="3">Počty žáků</th>
+                </tr>
+                <tr>
+                    <th>Chlapci</th>
+                    <th>Dívky</th>
+                    <th>Celkem</th>
+                </tr>
             </thead>
-            <tbody>
+        <tbody>
             <tr>
                 <td>Informační technologie</td>
                 <td>18-20-M/01</td>
@@ -117,11 +126,11 @@
                 <td>94</td>
             </tr>
         </tbody>
-            <tr>
-                <td colspan="2">Celkové údaje</td>
-                <td>13 tříd</td>
-                <td colspan="3">335 žáků</td>
-            </tr>
+        <tr>
+            <td colspan="2">Celkové údaje</td>
+            <td>13 tříd</td>
+            <td colspan="3">335 žáků</td>
+        </tr>
         </tbody>
     </table>
 </head>
