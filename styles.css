@@ -1,41 +1,63 @@
 h1 {
-    color: black;
-    font-size: 1em;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
+  color: black;
+  font-size: 3em;
+  font-family: "Gill Sans", "Gill Sans MT", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  text-align: center;
 }
 
-h2 { 
-    color: white;
-    font-size: 2em;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: firebrick;
-    text-align: center;
-    padding: 10px;
-    border-radius: 10px
+h2 {
+  color: white;
+  font-size: 2em;
+  font-family: "Gill Sans", "Gill Sans MT", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
+  background-color: firebrick;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
 }
 
 h3 {
-    color: navy;
-    font-size: 1.5em;
-    font-weight: bold;
+  color: navy;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 table {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
 }
 caption {
-    color: white;
-    background-color: black;
-    font-style: italic;
+  color: white;
+  background-color: black;
+  font-style: italic;
+  margin: 8px 0;
 }
 thead {
-    background-color: gainsboro;
-    text-align: center;
-    font-weight: bold;
-    height: 70px;
+  background-color: gainsboro;
+  text-align: center;
+  font-weight: bold;
 }
 tfoot {
-    background-color: gainsboro;
-    font-weight: bold;
+  background-color: gainsboro;
+  font-weight: bold;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+.zprava {
+  text-align: right;
+}
+dt {
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+#obal {
+  width: 80%;
+  margin: 0 auto;
 }
