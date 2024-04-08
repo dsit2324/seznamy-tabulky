@@ -61,3 +61,9 @@ dt {
   width: 80%;
   margin: 0 auto;
 }
+.a {
+  list-style-type: upper-roman;
+}
+.b {
+  list-style-type: lower-alpha;
+}
