@@ -67,3 +67,6 @@ dt {
 .b {
   list-style-type: lower-alpha;
 }
+table {
+  border: 1px solid black;
+}
